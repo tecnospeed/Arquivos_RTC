@@ -1,0 +1,199 @@
+[{
+  "idintegracao": "EMILLYRTC130_2",
+  "codigo": "71446798",
+  "natureza": "Venda",
+  "serie": "791",
+  "saida": true,
+  "codigoIdentificacaoDestino": "1",
+  "codigoMunicipioFatoGerador": "4115200",
+  "tipoImpressao": "1",
+  "tipoEmissao": "1",
+  "finalidade": "1",
+  "consumidorFinal": true,
+  "presencial": 9,
+  "intermediador": "0",
+  "emitente": {
+    "cpfCnpj": "29062609000177",
+    "razaoSocial": "S5 NEGOCIOS DIGITAIS LTDA",
+    "nomeFantasia": "S5 NEGOCIOS DIGITAIS LTDA",
+    "endereco": {
+      "logradouro": "Rua Vitórios Balani",
+      "numero": "1211",
+      "bairro": "Zona 05",
+      "codigoCidade": "4115200",
+      "descricaoCidade": "MARINGA",
+      "estado": "PR",
+      "cep": "87015310",
+      "codigoPais": "1058",
+      "descricaoPais": "BRASIL"
+    },
+    "telefone": {
+      "ddd": "44",
+      "numero": "998069874"
+    },
+    "inscricaoEstadual": "9098793965",
+    "regimeTributario": 3
+  },
+  "destinatario": {
+    "cpfCnpj": "29062609000177",
+    "razaoSocial": "NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+    "endereco": {
+      "logradouro": "AVENIDA",
+      "numero": "882",
+      "bairro": "CENTRO",
+      "codigoCidade": "4115200",
+      "descricaoCidade": "MARINGA",
+      "estado": "PR",
+      "cep": "87020025",
+      "codigoPais": "1058",
+      "descricaoPais": "Brasil"
+    },
+    "inscricaoEstadual": "9098793965",
+    "indicadorInscricaoEstadual": 1,
+    "email": "marcelo.rocha@tecnospeed.com.br"
+  },
+  "itens": [
+    {
+      "codigo": "2-2",
+      "codigoBarras": "SEM GTIN",
+      "descricao": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+      "ncm": "08119000",
+      "cfop": "5102",
+      "unidade": {
+        "comercial": "UN",
+        "tributavel": "KG"
+      },
+      "quantidade": {
+        "comercial": 1,
+        "tributavel": 13.0000
+      },
+      "valorUnitario": {
+        "comercial": 110.00,
+        "tributavel": 8.4615384615
+      },
+      "valor": 110.00,
+      "codigoBarrasTributavel": "SEM GTIN",
+      "compoeTotal": true,
+      "tributos": {
+        "icms": {
+          "origem": "0",
+          "cst": "00",
+          "baseCalculo": {
+            "modalidadeDeterminacao": 3,
+            "valor": 110.00
+          },
+          "aliquota": 4.00,
+          "valor": 4.40
+        },
+        "pis": {
+          "cst": "04",
+          "baseCalculo": {
+            "valor": 110.00
+          },
+          "aliquota": 0.0000,
+          "valor": 0.00
+        },
+        "cofins": {
+          "cst": "04",
+          "baseCalculo": {
+            "valor": 110.00
+          },
+          "aliquota": 0.00,
+          "valor": 0.00
+        },
+        "ibscbs": {
+          "cst": "200",
+          "classificacao": "200001",
+          "baseCalculo": 110.00,
+          "uf": {
+            "aliquota": 0.10,
+            "valor": 0.00,
+            "reducao": {
+              "aliquota": 100.00,
+              "aliquotaEfetiva": 0.00
+            }
+          },
+          "municipio": {
+            "aliquota": 0.00,
+            "valor": 0.00,
+            "reducao": {
+              "aliquota": 100.00,
+              "aliquotaEfetiva": 0.00
+            }
+          },
+          "cbs": {
+            "aliquota": 0.90,
+            "valor": 0.00,
+            "reducao": {
+              "aliquota": 100.00,
+              "aliquotaEfetiva": 0.00
+            }
+          },
+          "valorIbs": 0.00
+        }
+      }
+    }
+  ],
+  "pagamentos": [
+    {
+      "meio": "01",
+      "valor": 110.00,
+      "aVista": true
+    }
+  ],
+  "transporte": {
+    "modalidadeFrete": "9",
+    "volumes": [
+      {
+        "quantidade": 1,
+        "pesoLiquido": 13.000,
+        "pesoBruto": 27.900
+      }
+    ]
+  },
+  "total": {
+    "baseCalculoIcms": 110.00,
+    "valorIcms": 4.40,
+    "valorIcmsDesonerado": 0.00,
+    "valorFcp": 0.00,
+    "baseCalculoIcmsSt": 0.00,
+    "valorIcmsSt": 0.00,
+    "valorFcpSt": 0.00,
+    "valorFcpStRetido": 0.00,
+    "valorProdutosServicos": 110.00,
+    "valorFrete": 0.00,
+    "valorSeguro": 0.00,
+    "valorDesconto": 0.00,
+    "valorIi": 0.00,
+    "valorIpi": 0.00,
+    "valorIpiDevolvido": 0.00,
+    "valorPis": 0.00,
+    "valorCofins": 0.00,
+    "valorOutros": 0.00,
+    "valorNfe": 110.00,
+    "baseCalculoIbsCbs": 110.00,
+    "valorDiferimentoIbsUF": 0.00,
+    "valorDevolucaoIbsUF": 0.00,
+    "valorIbsUF": 0.00,
+    "valorDiferimentoIbsMunicipio": 0.00,
+    "valorDevolucaoIbsMunicipio": 0.00,
+    "valorIbsMunicipio": 0.00,
+    "valorIbs": 0.00,
+    "valorIbsCreditoPresumindo": 0.00,
+    "valorIbsCreditoPresumidoSupensao": 0.00,
+    "valorCbsCreditoPresumido": 0.00,
+    "valorCbsCreditoPresumidoSupensao": 0.00,
+    "valorCbsDiferimento": 0.00,
+    "valorCbsDevolucao": 0.00,
+    "valorCbs": 0.00
+  },
+  "responsavelTecnico": {
+    "cpfCnpj": "08187168000160",
+    "nome": "EMILLY",
+    "email": "revoloja@gmail.com",
+    "telefone": {
+      "ddd": "43",
+      "numero": "23232323"
+    }
+  }
+}]
