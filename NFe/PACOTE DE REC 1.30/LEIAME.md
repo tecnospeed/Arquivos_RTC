@@ -1,0 +1,1 @@
+Houveram alterações significativas no REC e na estrutura, assim sendo, os arquivos dos demais CST e cClassTrib foram removidos, para evitar erros de integração.
