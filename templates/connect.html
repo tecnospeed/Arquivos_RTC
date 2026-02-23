@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conexão Notasegura</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Conexão com banco</h1>
+      <p class="subtitle">Teste e salve credenciais do MySQL.</p>
+
+      {% if message %}
+      <div class="alert {{ 'success' if ok else 'error' }}">{{ message }}</div>
+      {% endif %}
+
+      <form method="post" class="card">
+        <label>Host <input name="host" value="{{ config.host }}" required /></label>
+        <label>Porta <input name="port" value="{{ config.port }}" required /></label>
+        <label>Banco <input name="database" value="{{ config.database }}" required /></label>
+        <label>Usuário <input name="user" value="{{ config.user }}" required /></label>
+        <label>Senha <input type="password" name="password" value="{{ config.password }}" required /></label>
+
+        <div class="actions">
+          <button name="action" value="test" type="submit">Testar conexão</button>
+          <button name="action" value="save" type="submit" class="secondary">Testar e salvar</button>
+          <a href="{{ url_for('cleanup') }}">Ir para limpeza</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

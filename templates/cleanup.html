@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limpeza por CNPJ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Gerar DELETE por CNPJ</h1>
+      <p class="subtitle">Busca o id em users e monta os SQLs para cópia.</p>
+
+      {% if message %}
+      <div class="alert {{ 'success' if ok else 'error' }}">{{ message }}</div>
+      {% endif %}
+
+      <form method="post" class="card">
+        <label>
+          CNPJ
+          <input name="cnpj" value="{{ cnpj }}" placeholder="26263149000157" required />
+        </label>
+
+        <label>
+          Tabela alvo
+          <select name="table_name" required>
+            <option value="">Selecione</option>
+            {% for t in tables %}
+            <option value="{{ t }}" {% if selected_table == t %}selected{% endif %}>{{ t }}</option>
+            {% endfor %}
+          </select>
+        </label>
+
+        <div class="actions">
+          <button type="submit">Buscar e gerar SQL</button>
+          <a href="{{ url_for('connect') }}">Voltar para conexão</a>
+        </div>
+      </form>
+
+      {% if user_id %}
+      <section class="card result">
+        <label>ID do usuário <input value="{{ user_id }}" readonly /></label>
+        <label>DELETE da tabela selecionada <textarea readonly rows="2">{{ single_delete }}</textarea></label>
+        <label>DELETEs relacionados (FK users.id)
+          <textarea readonly rows="10">{{ generated_sql }}</textarea>
+        </label>
+      </section>
+      {% endif %}
+    </main>
+  </body>
+</html>
