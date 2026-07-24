@@ -1,0 +1,175 @@
+[
+  {
+    "idIntegracao": "NFCom-RTC-000-000001",
+    "emitente": {
+      "cpfCnpj": "29062609000177"
+    },
+   "informacoesNFCom": {
+      "identificacaoNFCom": {
+        "codUF": 42,
+        "tipoAmbiente": 2,
+        "codMod": 62,
+        "serie": "17",
+        "numero": "55",
+        "codNF": "1234567",
+        "digitoChaveAcesso": "5",
+        "tipoEmissao": 1,
+        "numeroSiteAutorizador": "0",
+        "codigoMunicipio": "4205456",
+        "finalidadeEmissao": 0,
+        "tipoFaturamento": 0,
+        "versaoEmissor": "1",
+        "indicadorServico": 1
+      },
+      "emitente": {
+        "cpfCnpj": "29062609000177",
+        "inscricaoEstadual": "9098793965",
+        "regimeTributario": 3,
+        "razaoSocial": "exemplo",
+        "nomeFantasia": "exemplo",
+        "telefone": {
+          "ddd": "44",
+          "numero": "999998886"
+        },
+        "email": "exemplo@tecnospeed.com.br",
+        "endereco": {
+          "logradouro": "Rua Exemplo",
+          "numero": "112",
+          "complemento": "Complemento Exemplo",
+          "bairro": "bairro exemplo",
+          "codigoCidade": "4205456",
+          "descricaoCidade": "FORQUILHINHA",
+          "cep": "89233198",
+          "estado": "SC"
+        }
+      },
+      "destinatario": {
+        "razaoSocial": "Empresa Exemplo",
+        "cpfCnpj": "18590252000183",
+        "indicadorIEDestinatario": 1,
+        "inscricaoEstadual": "257109242",
+        "telefone": {
+          "ddd": "44",
+          "numero": "999998886"
+        },
+        "email": "exemplo@tecnospeed.com.br",
+        "endereco": {
+          "logradouro": "Rua Exemplo",
+          "numero": "112",
+          "complemento": "complemento exemplo",
+          "bairro": "bairro exemplo",
+          "codigoCidade": "4205456",
+          "descricaoCidade": "FORQUILHINHA",
+          "cep": "89233198",
+          "estado": "SC"
+        }
+      },
+      "assinante": {
+        "codigoUnicoAssinante": "1",
+        "tipoAssinante": 1,
+        "tipoServicoUtilizado": 1,
+        "numeroContrato": "1234567890",
+        "dataInicio": "2024-06-24",
+        "dataTermino": "2024-12-24",
+        "numeroTerminalPrincipal": "123456789123",
+        "codUFTerminalPrincipal": 43,
+        "terminaisAdicionais": [
+          {
+            "numeroTerminalAdicional": "123456789124",
+            "codUFTerminalAdicional": 43
+          }
+        ]
+      },
+      "detalheProdutoServico": [
+        {
+          "numeroItem": "1",
+          "prod": {
+            "codProduto": "RTC-000",
+            "descricaoProduto": "SERVICO DE COMUNICACAO TRIBUTADO INTEGRALMENTE",
+            "codClassificacao": "0100101",
+            "unidadeBasicaMedida": 1,
+            "quantidadeFatura": "1.0000",
+            "valorItem": "100.00",
+            "valorTotalItem": "100.00"
+          },
+          "imposto": {
+            "indSemSituacaoCST": {
+              "valor": 1
+            },
+            "IBSCBS": {
+              "CST": "000",
+              "codClassificacaoTributaria": "000001",
+              "grupoIBSCBS": {
+                "valorBase": "100.00",
+                "grupoIBSUF": {
+                  "aliquota": "0.1000",
+                  "valor": "0.10"
+                },
+                "grupoIBSMunicipio": {
+                  "aliquota": "0.0000",
+                  "valor": "0.00"
+                },
+                "valorIBS": "0.10",
+                "valor": "0.10",
+                "grupoCBS": {
+                  "aliquota": "0.9000",
+                  "valor": "0.90"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": {
+        "valorProdutoServicos": "100.00",
+        "ICMSTotais": {
+          "valorBase": "0.00",
+          "valor": "0.00",
+          "valorDesonerado": "0.00",
+          "valorFCP": "0.00"
+        },
+        "valorCOFINS": "0.00",
+        "valorPIS": "0.00",
+        "valorFUNTTEL": "0.00",
+        "valorFUST": "0.00",
+        "totalRetencaoTributosFederais": {
+          "valorPIS": "0.00",
+          "valorCOFINS": "0.00",
+          "valorCSLL": "0.00",
+          "valorIRRF": "0.00"
+        },
+        "valorDesconto": "0.00",
+        "outrasDespesas": "0.00",
+        "valorTotalNFCom": "100.00",
+        "valorTotalDFe": "100.00",
+        "IBSCBSTotal": {
+          "valorBase": "100.00",
+          "grupoIBS": {
+            "grupoIBSUF": {
+              "valorDiferimento": "0.00",
+              "valorDevolucaoTributo": "0.00",
+              "valor": "0.10"
+            },
+            "grupoIBSMunicipio": {
+              "valorDiferimento": "0.00",
+              "valorDevolucaoTributo": "0.00",
+              "valor": "0.00"
+            },
+            "valor": "0.10"
+          },
+          "grupoCBS": {
+            "valorDiferimento": "0.00",
+            "valorDevolucaoTributo": "0.00",
+            "valor": "0.90"
+          }
+        }
+      },
+      "versao": "1.00",
+      "informacoesAdicionais": {
+        "informacoesComplementares": [
+          "EXEMPLO RTC NFCom CST 000 E CCLASSTRIB 000001"
+        ]
+      }
+    }
+  }
+]
