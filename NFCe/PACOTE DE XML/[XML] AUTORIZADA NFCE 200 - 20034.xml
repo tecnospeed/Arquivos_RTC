@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+	<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+		<infNFe Id="NFe41260729062609000177650010001337941100010020" versao="4.00">
+			<ide>
+				<cUF>41</cUF>
+				<cNF>10001002</cNF>
+				<natOp>VENDA DE MERCADORIA</natOp>
+				<mod>65</mod>
+				<serie>1</serie>
+				<nNF>133794</nNF>
+				<dhEmi>2026-07-23T20:13:56-03:00</dhEmi>
+				<tpNF>1</tpNF>
+				<idDest>1</idDest>
+				<cMunFG>4115200</cMunFG>
+				<tpImp>4</tpImp>
+				<tpEmis>1</tpEmis>
+				<cDV>0</cDV>
+				<tpAmb>2</tpAmb>
+				<finNFe>1</finNFe>
+				<indFinal>1</indFinal>
+				<indPres>1</indPres>
+				<procEmi>0</procEmi>
+				<verProc>EXEMPLO_RTC_1.0</verProc>
+			</ide>
+			<emit>
+				<CNPJ>29062609000177</CNPJ>
+				<xNome>EMITENTE DE HOMOLOGACAO</xNome>
+				<xFant>EMITENTE DE HOMOLOGACAO</xFant>
+				<enderEmit>
+					<xLgr>RUA TESTE</xLgr>
+					<nro>100</nro>
+					<xBairro>CENTRO</xBairro>
+					<cMun>4115200</cMun>
+					<xMun>MARINGA</xMun>
+					<UF>PR</UF>
+					<CEP>87000000</CEP>
+					<cPais>1058</cPais>
+					<xPais>BRASIL</xPais>
+				</enderEmit>
+				<IE>9098793965</IE>
+				<CRT>3</CRT>
+			</emit>
+			<det nItem="1">
+				<prod>
+					<cProd>RTC-200</cProd>
+					<cEAN>SEM GTIN</cEAN>
+					<xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+					<NCM>22021000</NCM>
+					<CFOP>5102</CFOP>
+					<uCom>UN</uCom>
+					<qCom>1.0000</qCom>
+					<vUnCom>100.00</vUnCom>
+					<vProd>100.00</vProd>
+					<cEANTrib>SEM GTIN</cEANTrib>
+					<uTrib>UN</uTrib>
+					<qTrib>1.0000</qTrib>
+					<vUnTrib>100.00</vUnTrib>
+					<indTot>1</indTot>
+				</prod>
+				<imposto>
+					<ICMS>
+						<ICMS00>
+							<orig>0</orig>
+							<CST>00</CST>
+							<modBC>3</modBC>
+							<vBC>100.00</vBC>
+							<pICMS>18.00</pICMS>
+							<vICMS>18.00</vICMS>
+						</ICMS00>
+					</ICMS>
+					<PIS>
+						<PISNT>
+							<CST>04</CST>
+						</PISNT>
+					</PIS>
+					<COFINS>
+						<COFINSNT>
+							<CST>04</CST>
+						</COFINSNT>
+					</COFINS>
+					<IBSCBS>
+						<CST>200</CST>
+						<cClassTrib>200034</cClassTrib>
+						<gIBSCBS>
+							<vBC>100.00</vBC>
+							<gIBSUF>
+								<pIBSUF>0.10</pIBSUF>
+								<gRed>
+									<pRedAliq>60.00</pRedAliq>
+									<pAliqEfet>0.04</pAliqEfet>
+								</gRed>
+								<vIBSUF>0.04</vIBSUF>
+							</gIBSUF>
+							<gIBSMun>
+								<pIBSMun>0.00</pIBSMun>
+								<gRed>
+									<pRedAliq>60.00</pRedAliq>
+									<pAliqEfet>0.00</pAliqEfet>
+								</gRed>
+								<vIBSMun>0.00</vIBSMun>
+							</gIBSMun>
+							<vIBS>0.04</vIBS>
+							<gCBS>
+								<pCBS>0.90</pCBS>
+								<gRed>
+									<pRedAliq>60.00</pRedAliq>
+									<pAliqEfet>0.36</pAliqEfet>
+								</gRed>
+								<vCBS>0.36</vCBS>
+							</gCBS>
+						</gIBSCBS>
+					</IBSCBS>
+				</imposto>
+				<vItem>100.00</vItem>
+			</det>
+			<total>
+				<ICMSTot>
+					<vBC>100.00</vBC>
+					<vICMS>18.00</vICMS>
+					<vICMSDeson>0.00</vICMSDeson>
+					<vFCP>0.00</vFCP>
+					<vBCST>0.00</vBCST>
+					<vST>0.00</vST>
+					<vFCPST>0.00</vFCPST>
+					<vFCPSTRet>0.00</vFCPSTRet>
+					<vProd>100.00</vProd>
+					<vFrete>0.00</vFrete>
+					<vSeg>0.00</vSeg>
+					<vDesc>0.00</vDesc>
+					<vII>0.00</vII>
+					<vIPI>0.00</vIPI>
+					<vIPIDevol>0.00</vIPIDevol>
+					<vPIS>0.00</vPIS>
+					<vCOFINS>0.00</vCOFINS>
+					<vOutro>0.00</vOutro>
+					<vNF>100.00</vNF>
+				</ICMSTot>
+				<IBSCBSTot>
+					<vBCIBSCBS>100.00</vBCIBSCBS>
+					<gIBS>
+						<gIBSUF>
+							<vDif>0.00</vDif>
+							<vDevTrib>0.00</vDevTrib>
+							<vIBSUF>0.04</vIBSUF>
+						</gIBSUF>
+						<gIBSMun>
+							<vDif>0.00</vDif>
+							<vDevTrib>0.00</vDevTrib>
+							<vIBSMun>0.00</vIBSMun>
+						</gIBSMun>
+						<vIBS>0.04</vIBS>
+						<vCredPres>0.00</vCredPres>
+						<vCredPresCondSus>0.00</vCredPresCondSus>
+					</gIBS>
+					<gCBS>
+						<vDif>0.00</vDif>
+						<vDevTrib>0.00</vDevTrib>
+						<vCBS>0.36</vCBS>
+						<vCredPres>0.00</vCredPres>
+						<vCredPresCondSus>0.00</vCredPresCondSus>
+					</gCBS>
+				</IBSCBSTot>
+				<vNFTot>100.00</vNFTot>
+			</total>
+			<transp>
+				<modFrete>9</modFrete>
+			</transp>
+			<pag>
+				<detPag>
+					<tPag>01</tPag>
+					<vPag>100.00</vPag>
+				</detPag>
+			</pag>
+			<infRespTec>
+				<CNPJ>08187168000160</CNPJ>
+				<xContato>TecnoSpeed</xContato>
+				<email>contato@tecnospeed.com.br</email>
+				<fone>4430379500</fone>
+				<idCSRT>03</idCSRT>
+				<hashCSRT>9Say676WDCuvYemZKgpPeU0cnAo=</hashCSRT>
+			</infRespTec>
+		</infNFe>
+		<infNFeSupl>
+			<qrCode><![CDATA[http://www.fazenda.pr.gov.br/nfce/qrcode/?p=41260729062609000177650010001337941100010020|3|2]]></qrCode>
+			<urlChave>http://www.fazenda.pr.gov.br/nfce/consulta</urlChave>
+		</infNFeSupl>
+		<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+				<Reference URI="#NFe41260729062609000177650010001337941100010020">
+					<Transforms>
+						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+					</Transforms>
+					<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+					<DigestValue>bGBccawDh9IuFxxx0LSmaCQMv5I=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>MtMJ7GmvT+yAAuwS1vm2Pl4GsfXfDj3NNGYZY8OgXZkuJZFfxfD5Ro44hl7HXbw+ZrjMtL5DEeGigFOsVqnJ3kYbJSVsMewvBs9dzxj3lEDHGq/smwbw/hdYDouZygw7btCTT0ztzMJkOeBiGXVvRxj7eYdEAT1sa+vDJ/C1YPxuzmP34Vi1Yku45vizX56/FlbHfaAdYR45ikDGJ6hi1S/UYe9gDfbOoRL+6rgGrTYIYWaysr9OtfIR5oqO17+bOSxoERmDxwupvS/KXT+9AoL9z3r3g4MF9eA7dvKmjuN7Fuk9CMIXPCpmq3bFHa2gwSR1F1SqJpmed23Zm1OOjg==</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509Certificate>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</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature>
+	</NFe>
+	<protNFe versao="4.00">
+		<infProt Id="ID141260001423208">
+			<tpAmb>2</tpAmb>
+			<verAplic>PR-v4_5_39</verAplic>
+			<chNFe>41260729062609000177650010001337941100010020</chNFe>
+			<dhRecbto>2026-07-23T20:13:57-03:00</dhRecbto>
+			<nProt>141260001423208</nProt>
+			<digVal>bGBccawDh9IuFxxx0LSmaCQMv5I=</digVal>
+			<cStat>100</cStat>
+			<xMotivo>Autorizado o uso da NF-e</xMotivo>
+		</infProt>
+	</protNFe>
+</nfeProc>

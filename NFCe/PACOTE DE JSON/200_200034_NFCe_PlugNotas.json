@@ -1,0 +1,154 @@
+[
+  {
+    "idIntegracao": "PN-NFCE-RTC-200-200034",
+    "versaoManual": "4.00",
+    "natureza": "VENDA DE MERCADORIA",
+    "serie": 1,
+    "finalidade": "1",
+    "presencial": "1",
+    "tipoEmissao": "1",
+    "codigoIdentificacaoDestino": "1",
+    "consumidorFinal": true,
+    "emitente": {
+      "cpfCnpj": "29062609000177"
+    },
+    "itens": [
+      {
+        "codigo": "RTC-200",
+        "descricao": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+        "codigoBarras": "SEM GTIN",
+        "codigoBarrasTributavel": "SEM GTIN",
+        "ncm": "22021000",
+        "cfop": "5102",
+        "unidade": {
+          "comercial": "UN",
+          "tributavel": "UN"
+        },
+        "valorUnitario": {
+          "comercial": 100.0,
+          "tributavel": 100.0
+        },
+        "quantidade": {
+          "comercial": 1,
+          "tributavel": 1
+        },
+        "valor": 100.0,
+        "valorTotal": 100.0,
+        "compoeTotal": true,
+        "tributos": {
+          "icms": {
+            "origem": "0",
+            "cst": "00",
+            "baseCalculo": {
+              "modalidadeDeterminacao": 3,
+              "valor": 100.0
+            },
+            "aliquota": 18.0,
+            "valor": 18.0
+          },
+          "pis": {
+            "cst": "04",
+            "baseCalculo": {
+              "valor": 100.0
+            },
+            "aliquota": 0,
+            "valor": 0
+          },
+          "cofins": {
+            "cst": "04",
+            "baseCalculo": {
+              "valor": 100.0
+            },
+            "aliquota": 0,
+            "valor": 0
+          },
+          "ibscbs": {
+            "cst": "200",
+            "classificacao": "200034",
+            "baseCalculo": 100.0,
+            "valorIbs": 0.04,
+            "uf": {
+              "aliquota": 0.1,
+              "reducao": {
+                "aliquota": 60.0,
+                "aliquotaEfetiva": 0.04
+              },
+              "valor": 0.04
+            },
+            "municipio": {
+              "aliquota": 0.0,
+              "reducao": {
+                "aliquota": 60.0,
+                "aliquotaEfetiva": 0.0
+              },
+              "valor": 0.0
+            },
+            "cbs": {
+              "aliquota": 0.9,
+              "reducao": {
+                "aliquota": 60.0,
+                "aliquotaEfetiva": 0.36
+              },
+              "valor": 0.36
+            }
+          }
+        }
+      }
+    ],
+    "total": {
+    "baseCalculoIcms": 100.00,
+    "valorIcms": 18.00,
+    "valorIcmsDesonerado": 0.00,
+    "valorFcp": 0.00,
+    "baseCalculoIcmsSt": 0.00,
+    "valorIcmsSt": 0.00,
+    "valorFcpSt": 0.00,
+    "valorFcpStRetido": 0.00,
+    "valorProdutosServicos": 100.00,
+    "valorFrete": 0.00,
+    "valorSeguro": 0.00,
+    "valorDesconto": 0.00,
+    "valorIi": 0.00,
+    "valorIpi": 0.00,
+    "valorIpiDevolvido": 0.00,
+    "valorPis": 0.00,
+    "valorCofins": 0.00,
+    "valorOutros": 0.00,
+    "valorNfe": 100.00,
+    "baseCalculoIbsCbs": 100.00,
+    "valorDiferimentoIbsUF": 0.00,
+    "valorDevolucaoIbsUF": 0.00,
+    "valorIbsUF": 0.04,
+    "valorDiferimentoIbsMunicipio": 0.00,
+    "valorDevolucaoIbsMunicipio": 0.00,
+    "valorIbsMunicipio": 0.00,
+    "valorIbs": 0.04,
+    "valorIbsCreditoPresumindo": 0.00,
+    "valorIbsCreditoPresumidoSupensao": 0.00,
+    "valorCbsCreditoPresumido": 0.00,
+    "valorCbsCreditoPresumidoSupensao": 0.00,
+    "valorCbsDiferimento": 0.00,
+    "valorCbsDevolucao": 0.00,
+    "valorCbs": 0.36
+  },
+    "pagamentos": [
+      {
+        "aVista": true,
+        "meio": "01",
+        "valor": 100.0
+      }
+    ],
+    "transporte": {
+      "modalidadeFrete": "9"
+    },
+    "responsavelTecnico": {
+      "cpfCnpj": "08187168000160",
+      "nome": "TecnoSpeed",
+      "email": "contato@tecnospeed.com.br",
+      "telefone": {
+        "ddd": "44",
+        "numero": "30379500"
+      }
+    }
+  }
+]
