@@ -1,0 +1,159 @@
+[
+  {
+    "idIntegracao": "NFE-DEBITO-05-308-8",
+    "versaoManual": "4.00",
+    "codigo": "71446799",
+    "natureza": "Venda",
+    "serie": 308,
+    "numero": "8",
+    "dataEmissao": "2026-08-03T09:33:00-03:00",
+    "saida": true,
+    "codigoIdentificacaoDestino": "1",
+    "codigoMunicipioFatoGerador": "4115200",
+    "tipoImpressao": 1,
+    "tipoEmissao": 1,
+    "finalidade": "6",
+    "consumidorFinal": true,
+    "presencial": "9",
+    "intermediador": 0,
+    "emitente": {
+      "cpfCnpj": "29062609000177"
+    },
+    "destinatario": {
+      "cpfCnpj": "29062609000177",
+      "razaoSocial": "NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+      "indicadorInscricaoEstadual": 1,
+      "inscricaoEstadual": "9098793965",
+      "email": "marcelo.rocha@tecnospeed.com.br",
+      "endereco": {
+        "logradouro": "AVENIDA",
+        "numero": "882",
+        "bairro": "CENTRO",
+        "codigoCidade": "4115200",
+        "descricaoCidade": "MARINGA",
+        "estado": "PR",
+        "cep": "87020025",
+        "codigoPais": "1058",
+        "descricaoPais": "Brasil"
+      }
+    },
+    "notaReferenciada": {
+      "nfe": [
+        {
+          "chave": "41251129062609000177550010000018641000649630"
+        }
+      ]
+    },
+    "itens": [
+      {
+        "codigo": "2-2",
+        "descricao": "NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL",
+        "codigoBarras": "SEM GTIN",
+        "codigoBarrasTributavel": "SEM GTIN",
+        "ncm": "27111910",
+        "cfop": "5102",
+        "unidade": {
+          "comercial": "UN",
+          "tributavel": "KG"
+        },
+        "quantidade": {
+          "comercial": 1.0,
+          "tributavel": 13.0
+        },
+        "valorUnitario": {
+          "comercial": 110.0,
+          "tributavel": 8.4615384615
+        },
+        "valor": 110.0,
+        "valorTotal": 110.0,
+        "compoeTotal": true,
+        "tributos": {
+          "ibscbs": {
+            "cst": "000",
+            "classificacao": "000004",
+            "baseCalculo": 110.0,
+            "valorIbs": 0.11,
+            "uf": {
+              "aliquota": 0.1,
+              "valor": 0.11
+            },
+            "municipio": {
+              "aliquota": 0.0,
+              "valor": 0.0
+            },
+            "cbs": {
+              "aliquota": 0.9,
+              "valor": 0.99
+            }
+          }
+        }
+      }
+    ],
+    "pagamentos": [
+      {
+        "aVista": true,
+        "meio": "01",
+        "valor": 110.0
+      }
+    ],
+    "transporte": {
+      "modalidadeFrete": "9",
+      "volumes": [
+        {
+          "quantidade": 1,
+          "especie": "",
+          "marca": "",
+          "numeracao": "",
+          "pesoLiquido": 13.0,
+          "pesoBruto": 27.9
+        }
+      ]
+    },
+    "total": {
+      "baseCalculoIcms": 0.0,
+      "valorIcms": 0.0,
+      "valorIcmsDesonerado": 0.0,
+      "valorFcp": 0.0,
+      "baseCalculoIcmsSt": 0.0,
+      "valorIcmsSt": 0.0,
+      "valorFcpSt": 0.0,
+      "valorFcpStRetido": 0.0,
+      "valorProdutosServicos": 110.0,
+      "valorFrete": 0.0,
+      "valorSeguro": 0.0,
+      "valorDesconto": 0.0,
+      "valorIi": 0.0,
+      "valorIpi": 0.0,
+      "valorIpiDevolvido": 0.0,
+      "valorPis": 0.0,
+      "valorCofins": 0.0,
+      "valorOutros": 0.0,
+      "valorNfe": 110.0,
+      "baseCalculoIbsCbs": 110.0,
+      "valorDiferimentoIbsUF": 0.0,
+      "valorDevolucaoIbsUF": 0.0,
+      "valorIbsUF": 0.11,
+      "valorDiferimentoIbsMunicipio": 0.0,
+      "valorDevolucaoIbsMunicipio": 0.0,
+      "valorIbsMunicipio": 0.0,
+      "valorIbs": 0.11,
+      "valorIbsCreditoPresumido": 0.0,
+      "valorIbsCreditoPresumidoSuspensao": 0.0,
+      "valorCbsDiferimento": 0.0,
+      "valorCbsDevolucao": 0.0,
+      "valorCbs": 0.99,
+      "valorCbsCreditoPresumido": 0.0,
+      "valorCbsCreditoPresumidoSuspensao": 0.0
+    },
+    "responsavelTecnico": {
+      "cpfCnpj": "08187168000160",
+      "nome": "Tecnospeed",
+      "email": "contato@tecnospeed.com.br",
+      "telefone": {
+        "ddd": "44",
+        "numero": "30379500"
+      }
+    },
+    "tipoNotaDebito": "05"
+  }
+]
